@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Gajjar - Frontend Developer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fafafa;
+        }
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2c3e50;
+        }
+        nav a {
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #34495e;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 20px;
+            background: white;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .portfolio-item, .blog-post {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #ecf0f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form input, .contact-form textarea {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .contact-form button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #2980b9;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                padding: 10px;
+                font-size: 14px;
+            }
+            .container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ayush Gajjar</h1>
+        <p>Frontend Developer | Freelance Developer</p>
+    </header>
+    
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Ayush Gajjar, a frontend developer with a passion for creating vibrant and engaging user experiences. I focus on building responsive, accessible, and visually appealing websites that meet client needs and exceed expectations.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <h3>Project One</h3>
+                <p>Description of project one. This could include technologies used, challenges faced, and outcomes achieved.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project Two</h3>
+                <p>Description of project two. This could include links to live sites or repositories, if available.</p>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Custom Frontend Development</li>
+                <li>Responsive Web Design</li>
+                <li>UI/UX Design</li>
+                <li>Performance Optimization</li>
+                <!-- Add more services as needed -->
+            </ul>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Understanding Responsive Design</h3>
+                <p>In this post, I discuss the principles of responsive web design and how to implement them effectively.</p>
+            </div>
+            <div class="blog-post">
+                <h3>JavaScript Frameworks: A Comparative Guide</h3>
+                <p>This article explores various JavaScript frameworks, their strengths, and how to choose the right one for your project.</p>
+            </div>
+            <!-- Add more blog posts as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>If you’d like to discuss a project or get in touch with me, please use the contact form below or email me at <a href="mailto:ayush@example.com">ayush@example.com</a>.</p>
+            <form class="contact-form" action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ayush Gajjar. All rights reserved.</p>
+    </footer>
+</body>
+</html>

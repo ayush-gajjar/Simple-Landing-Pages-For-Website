@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping </title>
+
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="hero_section.css">
+    <link rel="stylesheet" href="category.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <!-- Logo in the Center -->
+            <a href="/" class="logo">YourLogo</a>
+
+            <!-- Profile Icon with Dropdown -->
+            <div class="profile-container">
+                <button class="profile-icon" aria-label="User menu">
+                    👤
+                </button>
+                <div class="profile-dropdown">
+                    <a href="/account">Your Account</a>
+                    <a href="/settings">Settings</a>
+                    <a href="/orders">Orders</a>
+                    <a href="/payment">Payment</a>
+                    <a href="/help">Help</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <input type="text" placeholder="Search..." class="search-bar mobile">
+            <ul class="mobile-nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/shopping.html">Shopping</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact-us.html">Contact-us</a></li>
+            </ul>
+            <div class="mobile-search-cart-account">
+                <a href="/cart" class="icon cart-icon">🛒</a>
+                <a href="/account" class="icon account-icon">👤</a>
+            </div>
+        </div>
+    </nav>
+    <!--   CATEGORY SECTIONS    -->
+    <section class="category-section">
+        <h2 class="section-heading">Shop by Category</h2>
+        <div class="categories">
+            <!-- Category Item -->
+            <div class="category-item">
+                <img src="category_icons/home-decor.png" alt="Category 1" class="category-image">
+                <div class="category-info">
+                    <h3 class="category-title">Home Decor</h3>
+                    <div class="category-buttons">
+                        <a href="#" class="btn buy-btn">Buy</a>
+                        <a href="#" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for 10 categories -->
+            <div class="category-item">
+                <img src="category_icons/laptop.png" alt="Category 2" class="category-image">
+                <div class="category-info">
+                    <h3 class="category-title">Laptops</h3>
+                    <div class="category-buttons">
+                        <a href="#" class="btn buy-btn">Buy</a>
+                        <a href="#" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ... Continue for all 10 categories ... -->
+            <div class="category-item">
+                <img src="category_icons/mens-clothes.png" alt="Category 3" class="category-image">
+                <div class="category-info">
+                    <h3 class="category-title">Mens Clothing</h3>
+                    <div class="category-buttons">
+                        <a href="#" class="btn buy-btn">Buy</a>
+                        <a href="#" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-item">
+                <img src="category_icons/women_clothes.png" alt="Category 4" class="category-image">
+                <div class="category-info">
+                    <h3 class="category-title">Women Clothing</h3>
+                    <div class="category-buttons">
+                        <a href="#" class="btn buy-btn">Buy</a>
+                        <a href="#" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-item">
+                <img src="category_icons/phone.png" alt="Category 5" class="category-image">
+                <div class="category-info">
+                    <h3 class="category-title">Smart Phones</h3>
+                    <div class="category-buttons">
+                        <a href="#" class="btn buy-btn">Buy</a>
+                        <a href="#" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-item">
+                <img src="category_icons/watches.png" alt="Category 6" class="category-image">
+                <div class="category-info">
+                    <h3 class="category-title">Watches</h3>
+                    <div class="category-buttons">
+                        <a href="#" class="btn buy-btn">Buy</a>
+                        <a href="#" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-item">
+                <img src="category_icons/laptop.png" alt="Category 7" class="category-image">
+                <div class="category-info">
+                    <h3 class="category-title">Laptops Accessories</h3>
+                    <div class="category-buttons">
+                        <a href="#" class="btn buy-btn">Buy</a>
+                        <a href="#" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-item">
+                <img src="category_icons/phone.png" alt="Category 8" class="category-image">
+                <div class="category-info">
+                    <h3 class="category-title">Phone Accessories</h3>
+                    <div class="category-buttons">
+                        <a href="#" class="btn buy-btn">Buy</a>
+                        <a href="#" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Products displayed -->
+    <section class="product-section">
+        <h2 class="section-heading">Featured Products</h2>
+        <div class="product-grid">
+            <!-- Product Item -->
+            <div class="product-item">
+                <img src="category_icons/laptop.png" alt="Laptops" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Laptops</h3>
+                    <p class="product-price">$19.99</p>
+                    <div class="product-buttons">
+                        <a href="#" class="btn buy-btn">Buy</a>
+                        <a href="#" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat for each product, ensuring each one is inside its own product-item div -->
+            <div class="product-item">
+                <img src="category_icons/phone.png" alt="Smart Phones" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Smart Phones</h3>
+                    <p class="product-price">$999</p>
+                    <div class="product-buttons">
+                        <a href="#" class="btn buy-btn">Buy</a>
+                        <a href="#" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="category_icons/watches.png" alt="Smart Watches" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Smart Watches</h3>
+                    <p class="product-price">$50</p>
+                    <div class="product-buttons">
+                        <a href="#" class="btn buy-btn">Buy</a>
+                        <a href="#" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <img src="category_icons/mens-clothes.png" alt="Mens Clothes" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-title">Mens Clothes</h3>
+                    <p class="product-price">$50</p>
+                    <div class="product-buttons">
+                        <a href="#" class="btn buy-btn">Buy</a>
+                        <a href="#" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

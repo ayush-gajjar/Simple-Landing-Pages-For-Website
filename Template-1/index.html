@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="hero_section.css">
+    <link rel="stylesheet" href="category.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+          <!-- Hamburger Menu Button -->
+          <button class="hamburger" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+      
+          <!-- Logo in the Center -->
+          <a href="/" class="logo">YourLogo</a>
+      
+          <!-- Profile Icon with Dropdown -->
+          <div class="profile-container">
+            <button class="profile-icon" aria-label="User menu">
+              👤
+            </button>
+            <div class="profile-dropdown">
+              <a href="/account">Your Account</a>
+              <a href="/settings">Settings</a>
+              <a href="/orders">Orders</a>
+              <a href="/payment">Payment</a>
+              <a href="/help">Help</a>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <input type="text" placeholder="Search..." class="search-bar mobile">
+          <ul class="mobile-nav-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/shopping.html">Shopping</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact-us.html">Contact-us</a></li>
+          </ul>
+          <div class="mobile-search-cart-account">
+            <a href="/cart" class="icon cart-icon">🛒</a>
+            <a href="/account" class="icon account-icon">👤</a>
+          </div>
+        </div>
+      </nav>
+      
+    <section class="hero">
+        <!-- Slider Container -->
+        <div class="slider">
+          <div class="slide" style="background-image: url('bg/b1.jpg');"></div>
+          <div class="slide" style="background-image: url('bg/b2.jpg');"></div>
+          <div class="slide" style="background-image: url('bg/b3.jpg');"></div>
+        </div>
+        <!-- Bottom Navigation -->
+        <div class="slider-nav">
+          <span class="nav-dot active" data-slide="0"></span>
+          <span class="nav-dot" data-slide="1"></span>
+          <span class="nav-dot" data-slide="2"></span>
+        </div>
+      </section>
+
+
+      <!--   CATEGORY SECTIONS    -->
+      <section class="category-section">
+        <h2 class="section-heading">Shop by Category</h2>
+        <div class="categories">
+          <!-- Category Item -->
+          <div class="category-item">
+            <img src="category_icons/home-decor.png" alt="Category 1" class="category-image">
+            <div class="category-info">
+              <h3 class="category-title">Home Decor</h3>
+              <div class="category-buttons">
+                <a href="#" class="btn buy-btn">Buy</a>
+                <a href="#" class="btn cart-btn">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <!-- Repeat for 10 categories -->
+          <div class="category-item">
+            <img src="category_icons/laptop.png" alt="Category 2" class="category-image">
+            <div class="category-info">
+              <h3 class="category-title">Laptops</h3>
+              <div class="category-buttons">
+                <a href="#" class="btn buy-btn">Buy</a>
+                <a href="#" class="btn cart-btn">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <!-- ... Continue for all 10 categories ... -->
+          <div class="category-item">
+            <img src="category_icons/mens-clothes.png" alt="Category 3" class="category-image">
+            <div class="category-info">
+              <h3 class="category-title">Mens Clothing</h3>
+              <div class="category-buttons">
+                <a href="#" class="btn buy-btn">Buy</a>
+                <a href="#" class="btn cart-btn">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="category-item">
+            <img src="category_icons/women_clothes.png" alt="Category 4" class="category-image">
+            <div class="category-info">
+              <h3 class="category-title">Women Clothing</h3>
+              <div class="category-buttons">
+                <a href="#" class="btn buy-btn">Buy</a>
+                <a href="#" class="btn cart-btn">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="category-item">
+            <img src="category_icons/phone.png" alt="Category 5" class="category-image">
+            <div class="category-info">
+              <h3 class="category-title">Smart Phones</h3>
+              <div class="category-buttons">
+                <a href="#" class="btn buy-btn">Buy</a>
+                <a href="#" class="btn cart-btn">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="category-item">
+            <img src="category_icons/watches.png" alt="Category 6" class="category-image">
+            <div class="category-info">
+              <h3 class="category-title">Watches</h3>
+              <div class="category-buttons">
+                <a href="#" class="btn buy-btn">Buy</a>
+                <a href="#" class="btn cart-btn">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="category-item">
+            <img src="category_icons/laptop.png" alt="Category 7" class="category-image">
+            <div class="category-info">
+              <h3 class="category-title">Laptops Accessories</h3>
+              <div class="category-buttons">
+                <a href="#" class="btn buy-btn">Buy</a>
+                <a href="#" class="btn cart-btn">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="category-item">
+            <img src="category_icons/phone.png" alt="Category 8" class="category-image">
+            <div class="category-info">
+              <h3 class="category-title">Phone Accessories</h3>
+              <div class="category-buttons">
+                <a href="#" class="btn buy-btn">Buy</a>
+                <a href="#" class="btn cart-btn">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+ <!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+      <!-- Brand Logo -->
+      <div class="footer-logo">Your Logo
+        <!-- <a href="#">
+          <img src="icons/fb.png your-logo.png" alt="Brand Logo" class="logo-image">
+        </a> -->
+      </div>
+  
+      <!-- Contact Information -->
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <ul class="contact-list">
+          <li><a href="mailto:info@example.com">info@example.com</a></li>
+          <li><a href="tel:+123456789">+1 (234) 567-89</a></li>
+          <li><a href="#">1234 Elm Street, City, Country</a></li>
+        </ul>
+      </div>
+  
+      <!-- Social Media Links -->
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <ul class="social-links">
+          <li><a href="https://facebook.com" target="_blank" aria-label="Facebook"><img class="image" src="icons/whatsapp.png" alt="Facebook"></a></li>
+          <li><a href="https://twitter.com" target="_blank" aria-label="Twitter"><img class="image" src="icons/insta.png " alt="Twitter"></a></li>
+          <li><a href="https://instagram.com" target="_blank" aria-label="Instagram"><img class="image" src="icons/fb.png " alt="Instagram"></a></li>
+          </ul>
+      </div>
+    </div>
+  
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+  
+  
+
+    <script src="scripts.js"></script>
+    </body\>
+
+</html>
